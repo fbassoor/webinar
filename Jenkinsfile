@@ -2,10 +2,10 @@ pipeline {
     agent any
     
     environment {
-        TOKEN = 'XXXXXXXXXXXXXX'
-        REGISTRY_NAMESPACE = 'XXXXXXXXXXXXXX'
-        OCIUSER = "${REGISTRY_NAMESPACE}/oracleidentitycloudservice/XXXXXXXXXXXXXX"
-        REGION = 'XXX'
+        TOKEN = ']MY_4tJqBbgS<rJ)6lcK'
+        REGISTRY_NAMESPACE = 'idlhjo6dp3bd'
+        OCIUSER = "${REGISTRY_NAMESPACE}/oracleidentitycloudservice/felipe.basso@oracle.com"
+        REGION = 'iad'
         IMAGE = 'hello_oke'
         IMAGE_TAG = 'latest'
         REGISTRY_TAG = "${REGION}.ocir.io/${REGISTRY_NAMESPACE}/${IMAGE}:${IMAGE_TAG}"
