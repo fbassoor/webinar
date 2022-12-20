@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        TOKEN = ']MY_4tJqBbgS<rJ)6lcK'
+        TOKEN = 'ON6oAh1bCRw[y0;E_:(1'
         REGISTRY_NAMESPACE = 'idlhjo6dp3bd'
         OCIUSER = "${REGISTRY_NAMESPACE}/oracleidentitycloudservice/felipe.basso@oracle.com"
         REGION = 'iad'
